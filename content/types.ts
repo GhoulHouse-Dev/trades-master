@@ -89,6 +89,7 @@ export type SiteConfig = {
   services: Service[];
   servicesHeading?: { title: string; intro?: string };
   whyUs?: { title: string; text: string }[];
+  whyUsHeading?: string;
   pricing?: {
     title: string;
     intro?: string;
@@ -101,6 +102,7 @@ export type SiteConfig = {
   process: { title: string; description: string }[];
   processHeading?: string;
   faqs: FAQ[];
+  faqHeading?: string;
   trust: {
     heading: string;
     items: string[];
