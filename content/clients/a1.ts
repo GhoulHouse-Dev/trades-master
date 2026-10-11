@@ -60,6 +60,20 @@ export const a1: SiteConfig = {
       { value: "M1", label: "luokitellut materiaalit" },
       { value: "9", label: "palvelukokonaisuutta" },
     ],
+    priceCard: {
+      title: "Mitä työ maksaa?",
+      value: "Tarjous kohteen mukaan",
+      note: "Hinta muodostuu kohteen laajuudesta, alustan kunnosta, valitusta pinnasta ja tarvittavista työvaiheista.",
+      linkLabel: "Pyydä hinta-arvio",
+      linkHref: "#yhteys",
+      prominent: true,
+      bullets: [
+        "Pinta-ala ja työn laajuus",
+        "Alustan kunto ja pohjatyöt",
+        "Valittu pinta tai materiaali",
+        "Kohteen sijainti ja työvaiheet",
+      ],
+    },
   },
   servicesHeading: {
     title: "Pinnat ja rappaukset yhdeltä tekijältä",
