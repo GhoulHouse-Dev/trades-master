@@ -21,7 +21,7 @@ export function ContactForm() {
     const payload = Object.fromEntries(new FormData(form).entries());
 
     try {
-      const response = await fetch("/api/contact", {
+      const response = await fetch("/api/lead", {
         method: "POST",
         headers: { "Content-Type": "application/json" },
         body: JSON.stringify(payload),
@@ -38,22 +38,22 @@ export function ContactForm() {
   }
 
   return (
-    <form className="contactForm" onSubmit={onSubmit}>
+    <form className="contactForm" onSubmit={onSubmit} noValidate={false}>
       {copy?.formTitle && <h3>{copy.formTitle}</h3>}
       <div className="fieldGrid">
         <label>Nimi<input name="name" autoComplete="name" required minLength={2} placeholder={copy?.placeholders?.name} /></label>
-        <label>Puhelin<input name="phone" autoComplete="tel" inputMode="tel" required placeholder={copy?.placeholders?.phone} /></label>
+        <label>Puhelin<input name="phone" autoComplete="tel" inputMode="tel" required minLength={5} placeholder={copy?.placeholders?.phone} /></label>
       </div>
       {copy?.serviceOptions && <label>Työn tyyppi<select name="service" required defaultValue=""><option value="" disabled>Valitse työn tyyppi</option>{copy.serviceOptions.map((option) => <option key={option} value={option}>{option}</option>)}</select></label>}
-      <label>Kerro lyhyesti<textarea name="message" required minLength={10} rows={5} placeholder={copy?.placeholders?.message ?? "Esim. keittiön hanan ja tiskikoneen liitännän uusinta..."} /></label>
+      <label>Kerro lyhyesti<textarea name="message" required minLength={10} maxLength={3000} rows={5} placeholder={copy?.placeholders?.message ?? "Kuvaa työ lyhyesti..."} /></label>
       {emailMode !== "hidden" && <label>Sähköposti {emailMode === "optional" && <small>(valinnainen)</small>}<input name="email" type="email" autoComplete="email" required={emailMode === "required"} placeholder={copy?.placeholders?.email} /></label>}
       {cityMode !== "hidden" && <label>Kohteen paikkakunta {cityMode === "optional" && <small>(valinnainen)</small>}<input name="city" autoComplete="address-level2" required={cityMode === "required"} placeholder={copy?.placeholders?.city} /></label>}
       <label className="honeypot" aria-hidden="true">Yritys<input name="companyWebsite" tabIndex={-1} autoComplete="off" /></label>
       <button className="button submitButton" disabled={state === "sending"}>
         {state === "sending" ? "Lähetetään…" : (copy?.button ?? "Lähetä tarjouspyyntö")}
       </button>
-      <p className="formHint">{copy?.privacyLine ?? <>Lomake lähettää tiedot palvelimelle. Tuotannossa aseta <code>CONTACT_WEBHOOK_URL</code> tai vaihda endpoint omaan CRM-/sähköpostipalveluun.</>}</p>
-      {message && <p className={state === "error" ? "formMessage error" : "formMessage"}>{message}</p>}
+      <p className="formHint">{copy?.privacyLine ?? "Tietoja käytetään vain yhteydenoton käsittelyyn."}</p>
+      {message && <p className={state === "error" ? "formMessage error" : "formMessage"} role="status">{message}</p>}
       <noscript>
         JavaScript tarvitaan lomakkeen lähettämiseen. {site.company.email ? <>Voit myös lähettää sähköpostia osoitteeseen {site.company.email}.</> : <>Voit myös soittaa numeroon {site.company.phone}.</>}
       </noscript>
