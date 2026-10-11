@@ -19,6 +19,7 @@ export const aquafix: SiteConfig = {
     contactPerson: "Ralf Mainz",
     contactRole: "LVI-teknikko",
     serviceArea: ["Helsinki"],
+    serviceAreaNote: "Muut lähialueet sopimuksen mukaan.",
     logoText: "AQ",
   },
   seo: {
