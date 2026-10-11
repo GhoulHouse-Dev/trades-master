@@ -18,7 +18,7 @@ export const acope: SiteConfig = {
     phoneHref: "tel:+358500601912",
     email: "",
     serviceArea: ["Helsinki"],
-    serviceAreaNote: "Acope Oy on rekisteröity Helsinkiin. Tarkempi toiminta-alue vahvistetaan ennen julkaisua.",
+    serviceAreaNote: "Acope Oy:n toimipaikka on Helsingissä. Kysy suoraan, onnistuuko työ omassa kohteessasi.",
     foundedYear: 2011,
     logoText: "AC",
   },
@@ -56,7 +56,7 @@ export const acope: SiteConfig = {
     priceCard: {
       title: "Mitä sähkötyö maksaa?",
       value: "Hinta työn mukaan",
-      note: "Julkista hinnastoa ei ole saatavilla. Työn hinta voidaan arvioida, kun kohde ja tarvittava sähkötyö on rajattu.",
+      note: "Sähkötyön hinta riippuu kohteesta ja työn laajuudesta. Kerro tarpeesta, niin työ voidaan rajata arviota varten.",
       linkLabel: "Pyydä työstä arvio",
       linkHref: "#yhteys",
       prominent: true,
@@ -69,8 +69,8 @@ export const acope: SiteConfig = {
     },
   },
   servicesHeading: {
-    title: "Sähköasennus ilman turhaa arvailua",
-    intro: "Julkisista lähteistä voidaan varmistaa Acope Oy:n sähköasennustoimiala. Tarkempi palveluvalikoima vahvistetaan yritykseltä ennen varsinaista julkaisua.",
+    title: "Sähköasennus ilman turhaa kierrosta",
+    intro: "Kerro kohteesta ja tarvittavasta sähkötyöstä. Mitä paremmin tarve on kuvattu, sitä helpompi seuraava vaihe on sopia.",
   },
   services: [
     {
@@ -80,23 +80,23 @@ export const acope: SiteConfig = {
       cta: "Kerro työstä",
     },
     {
-      title: "Kerro kohteesta",
-      description: "Hyvä yhteydenotto kertoo heti, mitä pitäisi tehdä ja missä kohde sijaitsee.",
+      title: "Työn kartoitus",
+      description: "Yhteydenotossa rajataan, mitä kohteessa pitäisi tehdä ja mitä tietoja arviota varten tarvitaan.",
       bullets: ["Työn lyhyt kuvaus", "Kohteen sijainti", "Toivottu ajankohta"],
       cta: "Jätä yhteydenottopyyntö",
     },
     {
-      title: "Sovi seuraava vaihe",
-      description: "Kun työn sisältö on tiedossa, voidaan sopia tarkemmasta arviosta ja toteutuksen seuraavasta vaiheesta.",
+      title: "Arvio ja seuraava vaihe",
+      description: "Kun työn sisältö on tiedossa, voidaan sopia arviosta ja työn etenemisestä.",
       bullets: ["Työn rajaus", "Arvio tai tarjous", "Toteutuksen sopiminen"],
       cta: "Pyydä arvio",
     },
   ],
-  whyUsHeading: "Perustiedot näkyviin heti.",
+  whyUsHeading: "Yrityksen perustiedot heti näkyvissä.",
   whyUs: [
     { title: "Rekisteröity vuonna 2011", text: "Acope Oy on rekisteröity kaupparekisteriin vuonna 2011." },
     { title: "Helsinkiläinen yritys", text: "Yrityksen rekisteröity osoite on Vanha Tapanilantie 13, 00780 Helsinki." },
-    { title: "Suora puhelinyhteys", text: "Julkinen yhteysnumero 0500 601 912 nostetaan sivulla heti näkyviin ilman monimutkaista yhteydenottopolkua." },
+    { title: "Suora puhelinyhteys", text: "Acope Oy:n julkinen yhteysnumero on 0500 601 912." },
   ],
   projects: [],
   testimonials: [],
@@ -108,10 +108,10 @@ export const acope: SiteConfig = {
   ],
   faqHeading: "Ennen yhteydenottoa.",
   faqs: [
-    { question: "Mitä sähkötyö maksaa?", answer: "Acope Oy:lle ei löytynyt julkista hinnastoa. Hinta kannattaa arvioida työn sisällön, kohteen lähtötilanteen, materiaalien ja laajuuden perusteella." },
-    { question: "Mitä Acope Oy tekee?", answer: "Yrityksen rekisteröity päätoimiala on sähköasennus (TOL 43210). Tarkempi palveluvalikoima vahvistetaan yritykseltä ennen sivuston julkaisua." },
+    { question: "Mitä sähkötyö maksaa?", answer: "Hinta riippuu työn sisällöstä, kohteen lähtötilanteesta, materiaaleista ja laajuudesta. Kerro työstä mahdollisimman konkreettisesti, jotta arvio voidaan tehdä oikeista lähtötiedoista." },
+    { question: "Mitä Acope Oy tekee?", answer: "Acope Oy:n rekisteröity päätoimiala on sähköasennus (TOL 43210). Tarkemmasta työstä kannattaa kysyä suoraan yritykseltä." },
     { question: "Missä Acope Oy sijaitsee?", answer: "Yrityksen rekisteröity osoite on Vanha Tapanilantie 13, 00780 Helsinki." },
-    { question: "Millä alueella yritys toimii?", answer: "Yritys on rekisteröity Helsinkiin. Tarkka toiminta-alue vahvistetaan yritykseltä ennen julkaisua." },
+    { question: "Onnistuuko työ omalla alueellani?", answer: "Acope Oy:n toimipaikka on Helsingissä. Kysy kohteen sijainnista suoraan numerosta 0500 601 912." },
     { question: "Miten saan arvion työstä?", answer: "Soita numeroon 0500 601 912 tai jätä yhteydenottopyyntö ja kerro lyhyesti tarvittavasta sähkötyöstä." },
   ],
   trust: {
@@ -120,7 +120,7 @@ export const acope: SiteConfig = {
   },
   contact: {
     title: "Onko kohteessa sähkötyön tarve?",
-    intro: "Kerro työstä mahdollisimman konkreettisesti. Mitä pitäisi tehdä, missä kohde sijaitsee ja milloin työn pitäisi olla ajankohtainen?",
+    intro: "Kerro työstä mahdollisimman konkreettisesti: mitä pitäisi tehdä, missä kohde sijaitsee ja milloin työ on ajankohtainen.",
     sideTitle: "Ota yhteyttä",
     formTitle: "Pyydä työstä arvio",
     button: "Lähetä yhteydenottopyyntö",
