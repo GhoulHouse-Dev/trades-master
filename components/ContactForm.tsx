@@ -54,7 +54,9 @@ export function ContactForm() {
       </button>
       <p className="formHint">{copy?.privacyLine ?? <>Lomake lähettää tiedot palvelimelle. Tuotannossa aseta <code>CONTACT_WEBHOOK_URL</code> tai vaihda endpoint omaan CRM-/sähköpostipalveluun.</>}</p>
       {message && <p className={state === "error" ? "formMessage error" : "formMessage"}>{message}</p>}
-      <noscript>JavaScript tarvitaan lomakkeen lähettämiseen. Voit myös lähettää sähköpostia osoitteeseen {site.company.email}.</noscript>
+      <noscript>
+        JavaScript tarvitaan lomakkeen lähettämiseen. {site.company.email ? <>Voit myös lähettää sähköpostia osoitteeseen {site.company.email}.</> : <>Voit myös soittaa numeroon {site.company.phone}.</>}
+      </noscript>
     </form>
   );
 }
