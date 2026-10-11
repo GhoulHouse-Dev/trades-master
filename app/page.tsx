@@ -44,7 +44,7 @@ export default function HomePage() {
             <aside className="heroPanel">
               <div className="heroPanelTop"><span className="statusDot" />{site.hero.eyebrow}</div>
               <div className="heroVisual">
-                <span>{site.trade.toUpperCase()}</span>
+                <span>{site.hero.panelLabel ?? site.trade.toUpperCase()}</span>
                 <strong>{site.company.tagline}</strong>
                 <p>{site.company.description}</p>
                 {site.hero.facts && <div className="factGrid">{site.hero.facts.map((fact) => <div key={fact.label}><strong>{fact.value}</strong><small>{fact.label}</small></div>)}</div>}
@@ -71,7 +71,7 @@ export default function HomePage() {
 
         {site.projects.length > 0 && <section className="section sectionDark" id="referenssit"><div className="container"><div className="sectionHead"><p className="eyebrow">Tehtyjä töitä</p><h2>Esimerkkejä toteutetuista töistä.</h2></div><div className="projectGrid">{site.projects.map((project) => <article className="projectCard" key={project.title}><img src={project.image} alt="" width="800" height="560" /><div className="projectBody"><span>{project.location}</span><h3>{project.title}</h3><p>{project.description}</p></div></article>)}</div></div></section>}
 
-        <section className="section" id="prosessi"><div className="container splitGrid"><div className="sectionHead stickyHead"><p className="eyebrow">Prosessi</p><h2>{site.processHeading ?? "Näin työ etenee."}</h2></div><ol className="processList">{site.process.map((step, i) => <li key={step.title}><span>{i + 1}</span><div><h3>{step.title}</h3><p>{step.description}</p></div></li>)}</ol></div></section>
+        <section className="section" id="prosessi"><div className="container splitGrid processSplit"><div className="sectionHead stickyHead"><p className="eyebrow">Prosessi</p><h2>{site.processHeading ?? "Näin työ etenee."}</h2></div><ol className="processList">{site.process.map((step, i) => <li key={step.title}><span>{i + 1}</span><div><h3>{step.title}</h3><p>{step.description}</p></div></li>)}</ol></div></section>
 
         {site.testimonials.length > 0 && <section className="section testimonials"><div className="container"><div className="sectionHead"><p className="eyebrow">Asiakaspalautteet</p><h2>Asiakkaiden kokemuksia.</h2></div><div className="cards2">{site.testimonials.map((item) => <figure className="quoteCard" key={item.quote}><blockquote>“{item.quote}”</blockquote><figcaption>{item.name}{item.meta ? ` · ${item.meta}` : ""}</figcaption></figure>)}</div></div></section>}
 
