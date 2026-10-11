@@ -1,8 +1,9 @@
 import type { Trade } from "./types";
 import { getPreset } from "./presets";
 import { aquafix } from "./clients/aquafix";
+import { a1 } from "./clients/a1";
 
-const clients = { aquafix } as const;
+const clients = { aquafix, a1 } as const;
 type ClientKey = keyof typeof clients;
 
 const requestedClient = process.env.NEXT_PUBLIC_CLIENT as ClientKey | undefined;
