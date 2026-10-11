@@ -9,7 +9,7 @@ export function buildLocalBusinessJsonLd() {
 
   return {
     "@context": "https://schema.org",
-    "@type": "HomeAndConstructionBusiness",
+    "@type": ["LocalBusiness", "HomeAndConstructionBusiness"],
     "@id": `${seo.siteUrl}/#business`,
     name: company.legalName ?? company.name,
     url: seo.siteUrl,
