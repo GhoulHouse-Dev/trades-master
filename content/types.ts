@@ -73,6 +73,7 @@ export type SiteConfig = {
   hero: {
     eyebrow: string;
     badge?: string;
+    panelLabel?: string;
     title: string;
     lead: string;
     primaryCta: string;
