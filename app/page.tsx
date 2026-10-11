@@ -41,18 +41,31 @@ export default function HomePage() {
               </div>
               {site.hero.highlights.length > 0 && <ul className="heroHighlights">{site.hero.highlights.map((item) => <li key={item}>{item}</li>)}</ul>}
             </div>
-            <aside className="heroPanel">
+            <aside className={`heroPanel${site.hero.priceCard?.prominent ? " heroPricePanel" : ""}`}>
               <div className="heroPanelTop"><span className="statusDot" />{site.hero.eyebrow}</div>
-              <div className="heroVisual">
-                <span>{site.hero.panelLabel ?? site.trade.toUpperCase()}</span>
-                <strong>{site.company.tagline}</strong>
-                <p>{site.company.description}</p>
-                {site.hero.facts && <div className="factGrid">{site.hero.facts.map((fact) => <div key={fact.label}><strong>{fact.value}</strong><small>{fact.label}</small></div>)}</div>}
-              </div>
-              {site.hero.priceCard ? (
-                <a className="panelContact" href={site.hero.priceCard.linkHref}><span>{site.hero.priceCard.title}<br/><small>{site.hero.priceCard.note}</small></span><strong>{site.hero.priceCard.value}</strong></a>
+              {site.hero.priceCard?.prominent ? (
+                <div className="heroPriceCard">
+                  <span className="heroPriceLabel">{site.hero.panelLabel ?? "Hinta"}</span>
+                  <p className="heroPriceQuestion">{site.hero.priceCard.title}</p>
+                  <strong className="heroPriceValue">{site.hero.priceCard.value}</strong>
+                  <p className="heroPriceNote">{site.hero.priceCard.note}</p>
+                  {site.hero.priceCard.bullets && <ul className="heroPriceBullets">{site.hero.priceCard.bullets.map((item) => <li key={item}>{item}</li>)}</ul>}
+                  <a className="button heroPriceButton" href={site.hero.priceCard.linkHref}>{site.hero.priceCard.linkLabel}</a>
+                </div>
               ) : (
-                <a className="panelContact" href={callHref}><span>Soita suoraan</span><strong>{site.company.phone}</strong></a>
+                <>
+                  <div className="heroVisual">
+                    <span>{site.hero.panelLabel ?? site.trade.toUpperCase()}</span>
+                    <strong>{site.company.tagline}</strong>
+                    <p>{site.company.description}</p>
+                    {site.hero.facts && <div className="factGrid">{site.hero.facts.map((fact) => <div key={fact.label}><strong>{fact.value}</strong><small>{fact.label}</small></div>)}</div>}
+                  </div>
+                  {site.hero.priceCard ? (
+                    <a className="panelContact" href={site.hero.priceCard.linkHref}><span>{site.hero.priceCard.title}<br/><small>{site.hero.priceCard.note}</small></span><strong>{site.hero.priceCard.value}</strong></a>
+                  ) : (
+                    <a className="panelContact" href={callHref}><span>Soita suoraan</span><strong>{site.company.phone}</strong></a>
+                  )}
+                </>
               )}
             </aside>
           </div>
