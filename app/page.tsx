@@ -1,9 +1,9 @@
 import { ContactForm } from "@/components/ContactForm";
+import { LocalBusinessJsonLd } from "@/components/LocalBusinessJsonLd";
 import { site } from "@/content/site";
-import { buildLocalBusinessJsonLd, phoneHref } from "@/lib/site";
+import { phoneHref } from "@/lib/site";
 
 export default function HomePage() {
-  const jsonLd = buildLocalBusinessJsonLd();
   const callHref = site.company.phoneHref ?? phoneHref(site.company.phone);
   const nav = site.nav ?? [
     { label: "Palvelut", href: "#palvelut" },
@@ -14,7 +14,7 @@ export default function HomePage() {
 
   return (
     <>
-      <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(jsonLd) }} />
+      <LocalBusinessJsonLd />
       <header className="siteHeader">
         <div className="container navWrap">
           <a className="brand" href="#top" aria-label={`${site.company.name} etusivu`}>
