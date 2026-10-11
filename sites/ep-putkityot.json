@@ -1,0 +1,147 @@
+{
+  "slug": "ep-putkityot",
+  "locale": "fi",
+  "trade": "lvi",
+  "company": {
+    "name": "EP Putkityöt Tmi",
+    "legalName": "EP Putkityöt Tmi",
+    "businessId": "3184301-9",
+    "tagline": "Putkityöt Helsingissä",
+    "description": "Helsinkiläinen putkityöalan toiminimi. Kerro kohteesta ja työn tarpeesta, niin seuraava vaihe voidaan sopia suoraan.",
+    "address": "Kokkokalliontie 9 E 62, 00370 Helsinki",
+    "streetAddress": "Kokkokalliontie 9 E 62",
+    "postalCode": "00370",
+    "city": "Helsinki",
+    "phone": "040 216 5855",
+    "phoneHref": "tel:+358402165855",
+    "email": "",
+    "serviceArea": ["Helsinki"],
+    "serviceAreaNote": "Yrityksen toimipaikka on Helsingissä. Työkohteen saatavuus kannattaa varmistaa suoraan puhelimitse.",
+    "logoText": "EP"
+  },
+  "seo": {
+    "siteUrl": "https://ep-putkityot-demo.vercel.app",
+    "title": "EP Putkityöt Tmi | Putkityöt Helsinki",
+    "description": "EP Putkityöt Tmi on helsinkiläinen putkityöalan yritys. Soita 040 216 5855 tai jätä yhteydenottopyyntö putkityöstä.",
+    "ogTitle": "EP Putkityöt Tmi – putkityöt Helsingissä",
+    "locale": "fi_FI",
+    "noindex": true
+  },
+  "theme": {
+    "primary": "#123B5D",
+    "accent": "#E06B2D",
+    "accentStrong": "#B84C18",
+    "surface": "#F4F7F9",
+    "ink": "#102536"
+  },
+  "nav": [
+    { "label": "Putkityöt", "href": "#palvelut" },
+    { "label": "Prosessi", "href": "#prosessi" },
+    { "label": "UKK", "href": "#ukk" },
+    { "label": "Yhteys", "href": "#yhteys" }
+  ],
+  "ctaLabel": "Kerro työstä",
+  "hero": {
+    "eyebrow": "Putkityöt • Helsinki",
+    "badge": "Helsinkiläinen putkityöalan yritys",
+    "panelLabel": "Putkityö",
+    "title": "Putkityö alkaa yhdestä selkeästä yhteydenotosta.",
+    "lead": "EP Putkityöt Tmi toimii putkityöalalla Helsingissä. Kerro mitä kohteessa pitäisi tehdä, niin työn sisältö ja seuraava vaihe voidaan tarkentaa ennen toteutusta.",
+    "primaryCta": "Kerro työstä",
+    "secondaryCta": "Soita 040 216 5855",
+    "highlights": ["Putkityöt", "Helsinki", "Y-tunnus 3184301-9"],
+    "priceCard": {
+      "title": "Mitä putkityö maksaa?",
+      "value": "Hinta työn mukaan",
+      "note": "Työn hinta riippuu kohteesta, työn laajuudesta ja tarvittavista materiaaleista. Kerro tarpeesta, niin työ voidaan rajata arviota varten.",
+      "linkLabel": "Pyydä hinta-arvio",
+      "linkHref": "#yhteys",
+      "prominent": true,
+      "bullets": [
+        "Työn sisältö ja laajuus",
+        "Kohteen lähtötilanne",
+        "Tarvittavat materiaalit",
+        "Toteutuksen yksityiskohdat"
+      ]
+    }
+  },
+  "servicesHeading": {
+    "title": "Putkityön tarve selkeästi eteenpäin",
+    "intro": "Kerro kohteesta ja tarvittavasta työstä. Mitä tarkemmin tarve on kuvattu, sitä helpompi seuraava vaihe on sopia."
+  },
+  "services": [
+    {
+      "title": "Putkityöt",
+      "description": "EP Putkityöt Tmi toimii putkityöalalla Helsingissä.",
+      "bullets": ["Kohteen tarpeen kuvaus", "Työn rajaus", "Toteutuksesta sopiminen"],
+      "cta": "Kerro työstä"
+    },
+    {
+      "title": "Työn kartoitus",
+      "description": "Yhteydenotossa tarkennetaan, mitä kohteessa pitäisi tehdä ja mitä tietoja arviota varten tarvitaan.",
+      "bullets": ["Työn lyhyt kuvaus", "Kohteen sijainti", "Toivottu ajankohta"],
+      "cta": "Jätä yhteydenottopyyntö"
+    },
+    {
+      "title": "Arvio ja seuraava vaihe",
+      "description": "Kun työn sisältö on tiedossa, voidaan sopia arviosta ja toteutuksen seuraavasta vaiheesta.",
+      "bullets": ["Työn rajaus", "Arvio tai tarjous", "Toteutuksen sopiminen"],
+      "cta": "Pyydä arvio"
+    }
+  ],
+  "whyUsHeading": "Perustiedot ja yhteydenotto ilman turhaa kierrosta.",
+  "whyUs": [
+    { "title": "Putkityöalan yritys", "text": "EP Putkityöt Tmi löytyy julkisista yrityshakemistoista putkityöalan toimijana." },
+    { "title": "Helsingin toimipaikka", "text": "Yrityksen julkinen osoite on Kokkokalliontie 9 E 62, 00370 Helsinki." },
+    { "title": "Suora puhelinyhteys", "text": "Yrityksen julkinen puhelinnumero on 040 216 5855." }
+  ],
+  "projects": [],
+  "testimonials": [],
+  "processHeading": "Näin yhteydenotto etenee",
+  "process": [
+    { "title": "Kerro työstä", "description": "Soita tai jätä yhteydenottopyyntö ja kuvaa lyhyesti, mitä kohteessa pitäisi tehdä." },
+    { "title": "Työ rajataan", "description": "Tarkennetaan kohde, työn sisältö ja tarvittavat lähtötiedot arviota varten." },
+    { "title": "Sovitaan seuraava vaihe", "description": "Kun tarve on rajattu, voidaan sopia arviosta, tarjouksesta tai toteutuksen etenemisestä." }
+  ],
+  "faqHeading": "Ennen yhteydenottoa.",
+  "faqs": [
+    { "question": "Mitä putkityö maksaa?", "answer": "Julkista hinnastoa ei löytynyt. Hinta riippuu työn sisällöstä, kohteesta, materiaaleista ja laajuudesta. Kerro työstä, jotta arvio voidaan tehdä oikeista lähtötiedoista." },
+    { "question": "Mitä EP Putkityöt Tmi tekee?", "answer": "Yritys löytyy julkisista yrityshakemistoista putkityöalan toimijana. Tarkemmasta työstä kannattaa kysyä suoraan yritykseltä." },
+    { "question": "Missä yritys sijaitsee?", "answer": "Julkinen osoite on Kokkokalliontie 9 E 62, 00370 Helsinki." },
+    { "question": "Onnistuuko työ omalla alueellani?", "answer": "Yrityksen toimipaikka on Helsingissä. Työkohteen saatavuus kannattaa varmistaa suoraan numerosta 040 216 5855." },
+    { "question": "Miten saan arvion työstä?", "answer": "Soita numeroon 040 216 5855 tai jätä yhteydenottopyyntö ja kerro lyhyesti tarvittavasta putkityöstä." }
+  ],
+  "trust": {
+    "heading": "EP Putkityöt lyhyesti",
+    "items": ["Putkityöt", "Helsinki", "Y-tunnus 3184301-9", "040 216 5855"]
+  },
+  "contact": {
+    "title": "Onko kohteessa putkityön tarve?",
+    "intro": "Kerro työstä mahdollisimman konkreettisesti: mitä pitäisi tehdä, missä kohde sijaitsee ja milloin työ on ajankohtainen.",
+    "sideTitle": "Ota yhteyttä",
+    "formTitle": "Pyydä työstä arvio",
+    "button": "Lähetä yhteydenottopyyntö",
+    "success": "Kiitos! Yhteydenottopyyntö on lähetetty.",
+    "error": "Lähetys ei onnistunut. Soita numeroon 040 216 5855 tai yritä uudelleen.",
+    "privacyLine": "Tietoja käytetään vain yhteydenoton käsittelyyn.",
+    "serviceOptions": ["Putkityö", "Muu LVI-tarve", "En osaa vielä rajata työtä"],
+    "fields": { "email": "optional", "city": "optional" },
+    "placeholders": {
+      "name": "Nimesi",
+      "phone": "040 123 4567",
+      "email": "sina@esimerkki.fi",
+      "city": "Helsinki",
+      "message": "Mitä kohteessa pitäisi tehdä?"
+    }
+  },
+  "footer": {
+    "links": [
+      { "label": "Putkityöt", "href": "#palvelut" },
+      { "label": "Prosessi", "href": "#prosessi" },
+      { "label": "UKK", "href": "#ukk" },
+      { "label": "Yhteys", "href": "#yhteys" }
+    ],
+    "copyright": "© 2026 EP Putkityöt Tmi"
+  },
+  "needsConfirmation": ["email", "services", "serviceArea", "pricing", "privacy", "contactPerson"]
+}
