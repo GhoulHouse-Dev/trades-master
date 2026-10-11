@@ -49,6 +49,7 @@ export const a1: SiteConfig = {
   hero: {
     eyebrow: "Tasoitus • rappaus • maalaus",
     badge: "Yli 20 vuoden kokemus rakennusalalta",
+    panelLabel: "Pintatyöt",
     title: "Viimeistellyt pinnat kotiin, taloyhtiöön ja rakennuskohteeseen.",
     lead: "A1 tekee tasoitus-, rappaus- ja maalaustöitä sekä erikoispintoja pieniin ja keskisuuriin uudis- ja korjauskohteisiin pääkaupunkiseudulla.",
     primaryCta: "Pyydä tarjous",
@@ -88,7 +89,7 @@ export const a1: SiteConfig = {
   whyUs: [
     { title: "Yli 20 vuotta rakennusalalla", text: "Yrittäjä Joni Korhosella on yli 20 vuoden kokemus rakennusalalta." },
     { title: "M1-luokitellut tuotteet", text: "Yritys ilmoittaa käyttävänsä laadukkaita M1-luokiteltuja tuotteita ja materiaaleja rakennuskohteissa." },
-    { title: "Tavallisten pintojen lisäksi erikoistyöt", text: "Sisustus- ja koristerappaukset, verhoilukivet sekä hengittävät savilaastipinnoitteet täydentävät tavallisia tasoitus- ja maalaustöitä." },
+    { title: "Erikoispinnat", text: "Sisustus- ja koristerappaukset, verhoilukivet sekä hengittävät savilaastipinnoitteet täydentävät tavallisia tasoitus- ja maalaustöitä." },
   ],
   projects: [],
   testimonials: [],
