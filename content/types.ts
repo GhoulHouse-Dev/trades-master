@@ -49,6 +49,7 @@ export type SiteConfig = {
     city: string;
     address?: string;
     serviceArea: string[];
+    serviceAreaNote?: string;
     foundedYear?: number;
     logoText?: string;
   };
