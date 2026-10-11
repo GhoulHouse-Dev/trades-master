@@ -24,7 +24,7 @@ export const aquafix: SiteConfig = {
   seo: {
     siteUrl: "https://aquafix.fi",
     title: "Aquafix Oy | LVI-asennukset Helsingissä",
-    description: "LVI-asennukset, vesivuodot, viemärinavaukset ja putkiremontit Helsingissä. Yli 30 vuoden työkokemus. Pyydä tarjous tai soita 040 866 8276.",
+    description: "LVI-asennukset, vesivuodot, viemärinavaukset ja putkiremontit Helsingissä. Pyydä tarjous tai soita 040 866 8276.",
     ogTitle: "Aquafix Oy – LVI-asennukset",
     locale: "fi_FI",
   },
@@ -45,17 +45,12 @@ export const aquafix: SiteConfig = {
   ctaLabel: "Pyydä tarjous",
   hero: {
     eyebrow: "LVI-asennukset • Helsinki",
-    badge: "Yli 30 vuoden työkokemus LVI-asennuksista",
+    badge: "LVI-asennukset • Helsinki",
     title: "LVI-työt Helsingissä – vuodoista putkiremontteihin",
     lead: "Aquafix Oy tekee LVI-asennukset, vesivuotojen korjaukset ja putkistoremontit. Kerro työstä, niin sovitaan jatko.",
     primaryCta: "Pyydä tarjous",
     secondaryCta: "Soita 040 866 8276",
-    highlights: ["30+ v LVI-työkokemusta", "KVV & IV -työnjohto", "Kaukolämpötyöt"],
-    facts: [
-      { value: "30+ v", label: "LVI-työkokemusta" },
-      { value: "KVV & IV", label: "työnjohto" },
-      { value: "Kaukolämpö", label: "työt" },
-    ],
+    highlights: ["Helsinki", "69,03 €/h sis. ALV", "Soita suoraan tekijälle"],
     priceCard: {
       title: "Hinta näkyvissä",
       value: "69,03 € / tunti",
@@ -73,25 +68,25 @@ export const aquafix: SiteConfig = {
       title: "Vuodot ja korjaukset",
       description: "Arjen LVI-viat ja korjaukset nopeasti samaan yhteydenottoon.",
       bullets: ["Vesivuotojen korjaukset", "Viemärinavaukset", "Hanan vaihdot", "Patteriventtiilien ja termostaattien vaihdot"],
-      cta: "Pyydä tarjous",
+      cta: "Kerro työstä",
     },
     {
       title: "Putkistot ja lämmitys",
       description: "Putkistojen uusinnat sekä lämmitysjärjestelmän asennus- ja korjaustyöt.",
       bullets: ["Vesi- ja viemärijohtojen uusinta", "Lämpöjohtojen asennukset ja korjaukset"],
-      cta: "Pyydä tarjous",
+      cta: "Kerro työstä",
     },
     {
       title: "Remontit ja asennukset",
       description: "LVI-osuus uudis- ja korjausrakentamiseen sekä kodin kaluste- ja laiteasennuksiin.",
       bullets: ["Uudisrakentaminen", "Korjausrakentaminen", "Kylpyhuoneen kalustukset", "Astian- ja pyykinpesukoneen kytkennät"],
-      cta: "Pyydä tarjous",
+      cta: "Kerro työstä",
     },
   ],
   whyUs: [
-    { title: "Yli 30 vuoden kokemus", text: "Laaja työkokemus LVI-asennuksista uudisrakentamisesta korjauksiin." },
-    { title: "Työnjohto ja kaukolämpö", text: "KVV- ja IV-työnjohto sekä kaukolämpötyöt." },
-    { title: "Hinnat esillä", text: "Tuntihinta, ajo ja lisät on kerrottu hinnastossa ennen kuin otat yhteyttä." },
+    { title: "Suoraan tekijän kanssa", text: "Kun otat yhteyttä, keskustelet työn toteuttajan kanssa ilman turhaa välikättä." },
+    { title: "Pienistä korjauksista isompiin töihin", text: "Hanat, vuodot, putkistot, lämmitys ja remonttien LVI-työt samasta paikasta." },
+    { title: "Hinnat esillä", text: "Tuntihinta, ajo ja tavallisimmat lisät on kerrottu ennen yhteydenottoa." },
   ],
   pricing: {
     title: "Hinnasto",
@@ -111,18 +106,18 @@ export const aquafix: SiteConfig = {
   process: [
     { title: "Kerro työstä", description: "Täytä lomake tai soita 040 866 8276." },
     { title: "Sovitaan työ ja hinta", description: "Käydään läpi, mitä tehdään ja mitä se maksaa." },
-    { title: "Työ tehdään", description: "Laskutus hinnaston mukaan." },
+    { title: "Työ tehdään sovitusti", description: "Saat valmiin työn ja laskutuksen sovitun työn sekä hinnaston perusteella." },
   ],
   faqs: [
     { question: "Mitä LVI-asennus maksaa?", answer: "Tuntihinta on 69,03 € sis. ALV 25,5 %. Lisäksi laskutetaan ajo (Helsinki) 33,86 €, huoltoauto 11,30 € ja pienlaskutuslisä 6,28 €. Pyydä tarjous, niin kerromme työn kokonaishinnan." },
     { question: "Mitä töitä Aquafix tekee?", answer: "Vesivuodot, viemärinavaukset, hanan vaihdot, vesi- ja viemärijohtojen uusinnan, lämpöjohtojen asennukset ja korjaukset, patteriventtiilien ja termostaattien vaihdot, kylpyhuoneen kalustukset sekä astian- ja pyykinpesukoneen kytkennät." },
     { question: "Teettekö remontteja ja uudisrakennuksia?", answer: "Kyllä, sekä uudisrakentamista että korjausrakentamista." },
-    { question: "Millä alueella toimitte?", answer: "Hinnastossa ajo on hinnoiteltu Helsinkiin. Muut paikkakunnat: kysy tarjous." },
+    { question: "Millä alueella toimitte?", answer: "Hinnastossa ajo on hinnoiteltu Helsinkiin. Muut lähialueet sopimuksen mukaan." },
     { question: "Miten saan tarjouksen?", answer: "Täytä lomake tai soita 040 866 8276. Kerro, mitä työtä tarvitset ja missä kohde sijaitsee." },
   ],
   trust: {
-    heading: "Kokenut LVI-tekijä Helsingissä",
-    items: ["Yli 30 vuoden työkokemus", "KVV & IV -työnjohto", "Kaukolämpötyöt", "Hinnasto näkyvissä"],
+    heading: "Selkeä LVI-palvelu Helsingissä",
+    items: ["Helsinki", "69,03 €/h sis. ALV", "Soita suoraan tekijälle", "Hinnasto näkyvissä"],
   },
   contact: {
     title: "Tarvitsetko LVI-työtä Helsingissä?",
@@ -135,6 +130,10 @@ export const aquafix: SiteConfig = {
     error: "Lähetys ei onnistunut. Soita 040 866 8276 tai yritä uudelleen.",
     privacyLine: "Käytämme tietojasi vain tarjouspyynnön käsittelyyn.",
     serviceOptions: ["Vuodot ja korjaukset", "Putkistot ja lämmitys", "Remontit ja asennukset", "Muu"],
+    fields: {
+      email: "optional",
+      city: "hidden",
+    },
     placeholders: {
       name: "Nimesi",
       phone: "040 123 4567",
@@ -157,12 +156,12 @@ export const aquafix: SiteConfig = {
     title: "Tietosuojaseloste",
     sections: [
       { heading: "Rekisterinpitäjä", text: "Aquafix Oy, Puuskakuja 11 E 11, 00850 Helsinki, ralf.mainz@aquafix.fi." },
-      { heading: "Mitä tietoja kerätään", text: "Lomakkeella annetut nimi, puhelinnumero, sähköposti, paikkakunta ja työn kuvaus." },
+      { heading: "Mitä tietoja kerätään", text: "Lomakkeella annetut nimi, puhelinnumero, sähköposti ja työn kuvaus." },
       { heading: "Mihin käytetään", text: "Tarjouspyynnön käsittelyyn ja yhteydenottoon." },
       { heading: "Säilytys", text: "Tietoja säilytetään vain niin kauan kuin tarjouspyynnön käsittely vaatii." },
       { heading: "Luovutus", text: "Tietoja ei myydä eikä luovuteta kolmansille osapuolille, paitsi lomakepalvelun tuottajalle teknisen käsittelyn vuoksi." },
       { heading: "Oikeutesi", text: "Voit pyytää tietojesi tarkastusta, oikaisua tai poistoa ottamalla yhteyttä rekisterinpitäjään." },
     ],
   },
-  needsConfirmation: ["hero.badge", "hero.facts", "whyUs[0]", "whyUs[1]", "process", "faq[3]", "company.businessId", "privacy"],
+  needsConfirmation: ["pricing", "process", "faq[3]", "company.businessId", "privacy"],
 };
