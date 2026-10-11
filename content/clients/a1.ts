@@ -52,7 +52,7 @@ export const a1: SiteConfig = {
     panelLabel: "Pintatyöt",
     title: "Viimeistellyt pinnat kotiin, taloyhtiöön ja rakennuskohteeseen.",
     lead: "A1 tekee tasoitus-, rappaus- ja maalaustöitä sekä erikoispintoja pieniin ja keskisuuriin uudis- ja korjauskohteisiin pääkaupunkiseudulla.",
-    primaryCta: "Pyydä tarjous",
+    primaryCta: "Pyydä hinta-arvio",
     secondaryCta: "Soita 040 505 5972",
     highlights: ["20+ v rakennusalalla", "Pääkaupunkiseutu", "M1-materiaalit"],
     facts: [
@@ -61,9 +61,9 @@ export const a1: SiteConfig = {
       { value: "9", label: "palvelukokonaisuutta" },
     ],
     priceCard: {
-      title: "Mitä työ maksaa?",
-      value: "Tarjous kohteen mukaan",
-      note: "Hinta muodostuu kohteen laajuudesta, alustan kunnosta, valitusta pinnasta ja tarvittavista työvaiheista.",
+      title: "Mitä pintatyö maksaa?",
+      value: "Ei kiinteää hinnastoa – tarjous kohteen mukaan",
+      note: "Saat hinta-arvion kohdetietojen perusteella. Hintaan vaikuttavat työn laajuus, alustan kunto, valittu pinta ja tarvittavat työvaiheet.",
       linkLabel: "Pyydä hinta-arvio",
       linkHref: "#yhteys",
       prominent: true,
@@ -115,6 +115,7 @@ export const a1: SiteConfig = {
   ],
   faqHeading: "Ennen tarjouspyyntöä.",
   faqs: [
+    { question: "Mitä pintatyö maksaa?", answer: "A1:llä ei ole julkista kiinteää hinnastoa. Hinta arvioidaan kohteen mukaan, ja siihen vaikuttavat esimerkiksi työn laajuus, alustan kunto, valittu pinta tai materiaali sekä tarvittavat työvaiheet. Jätä kohdetiedot, niin saat hinta-arvion." },
     { question: "Mitä töitä A1 tekee?", answer: "Palveluihin kuuluvat tasoitus-, rappaus- ja maalaustyöt, sisustus- ja koristerappaukset, julkisivujen rappaus, verhoilukivien asennus, savilaastipinnoitteet sekä muut näihin liittyvät erikois- ja korjaustyöt." },
     { question: "Millaisiin kohteisiin palvelu sopii?", answer: "A1 palvelee pientalorakentajia, taloyhtiöitä ja rakennusliikkeitä. Työkohteet ovat yleensä pieniä tai keskisuuria, ja kyseessä voi olla uudiskohde tai kunnostettava kohde." },
     { question: "Teettekö myös julkisivutöitä?", answer: "Kyllä. Pääosa töistä tehdään sisätiloissa, mutta palveluihin kuuluu myös julkisivujen rappaus." },
