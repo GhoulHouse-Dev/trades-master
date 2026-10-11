@@ -5,6 +5,7 @@ type ContactPayload = {
   phone?: unknown;
   email?: unknown;
   city?: unknown;
+  service?: unknown;
   message?: unknown;
   companyWebsite?: unknown;
 };
@@ -30,6 +31,7 @@ export async function POST(request: Request) {
     phone: text(body.phone, 60),
     email: text(body.email, 160),
     city: text(body.city, 120),
+    service: text(body.service, 160),
     message: text(body.message, 3000),
     receivedAt: new Date().toISOString(),
   };
