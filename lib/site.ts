@@ -14,7 +14,7 @@ export function buildLocalBusinessJsonLd() {
     name: company.legalName ?? company.name,
     url: seo.siteUrl,
     telephone: company.phone,
-    email: company.email,
+    ...(company.email ? { email: company.email } : {}),
     description: company.description,
     address: company.streetAddress
       ? {
