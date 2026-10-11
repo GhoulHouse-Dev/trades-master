@@ -1,14 +1,20 @@
 "use client";
 
 import { FormEvent, useState } from "react";
-import { site } from "@/content/site";
+import type { SiteConfig } from "@/content/types";
 
 type State = "idle" | "sending" | "sent" | "error";
+type ContactCopy = SiteConfig["contact"];
 
-export function ContactForm() {
+type ContactFormProps = {
+  copy?: ContactCopy;
+  companyPhone: string;
+  companyEmail?: string;
+};
+
+export function ContactForm({ copy, companyPhone, companyEmail }: ContactFormProps) {
   const [state, setState] = useState<State>("idle");
   const [message, setMessage] = useState("");
-  const copy = site.contact;
   const emailMode = copy?.fields?.email ?? "optional";
   const cityMode = copy?.fields?.city ?? "optional";
 
@@ -55,7 +61,7 @@ export function ContactForm() {
       <p className="formHint">{copy?.privacyLine ?? "Tietoja käytetään vain yhteydenoton käsittelyyn."}</p>
       {message && <p className={state === "error" ? "formMessage error" : "formMessage"} role="status">{message}</p>}
       <noscript>
-        JavaScript tarvitaan lomakkeen lähettämiseen. {site.company.email ? <>Voit myös lähettää sähköpostia osoitteeseen {site.company.email}.</> : <>Voit myös soittaa numeroon {site.company.phone}.</>}
+        JavaScript tarvitaan lomakkeen lähettämiseen. {companyEmail ? <>Voit myös lähettää sähköpostia osoitteeseen {companyEmail}.</> : <>Voit myös soittaa numeroon {companyPhone}.</>}
       </noscript>
     </form>
   );
