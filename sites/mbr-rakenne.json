@@ -1,0 +1,151 @@
+{
+  "slug": "mbr-rakenne",
+  "locale": "fi",
+  "trade": "remontti",
+  "company": {
+    "name": "MBR-Rakenne",
+    "legalName": "MBR-Rakenne Oy",
+    "businessId": "1700361-1",
+    "tagline": "Rakennusliike Espoossa",
+    "description": "MBR-Rakenne Oy on Espoossa toimiva rakennusalan yritys, jonka päätoimiala on talonrakentaminen.",
+    "address": "Kiuastie 19, 02770 Espoo",
+    "streetAddress": "Kiuastie 19",
+    "postalCode": "02770",
+    "city": "Espoo",
+    "phone": "040 565 2445",
+    "phoneHref": "tel:+358405652445",
+    "email": "",
+    "contactPerson": "Markku Björkstrand",
+    "contactRole": "Toimitusjohtaja",
+    "serviceArea": ["Espoo"],
+    "serviceAreaNote": "Yrityksen kotipaikka ja postiosoite ovat Espoossa. Kohteen sijainnista ja työn saatavuudesta kannattaa sopia suoraan yrityksen kanssa.",
+    "foundedYear": 2001,
+    "logoText": "MBR"
+  },
+  "seo": {
+    "siteUrl": "https://mbr-rakenne-demo.vercel.app",
+    "title": "MBR-Rakenne Oy | Rakennusliike Espoo",
+    "description": "MBR-Rakenne Oy on Espoossa toimiva rakennusalan yritys. Soita 040 565 2445 tai jätä yhteydenottopyyntö.",
+    "ogTitle": "MBR-Rakenne Oy – rakennusala Espoo",
+    "locale": "fi_FI",
+    "noindex": true
+  },
+  "theme": {
+    "primary": "#20242A",
+    "accent": "#C8893D",
+    "accentStrong": "#A66D28",
+    "surface": "#F2F1ED",
+    "ink": "#20242A"
+  },
+  "nav": [
+    { "label": "Rakennustyö", "href": "#palvelut" },
+    { "label": "Prosessi", "href": "#prosessi" },
+    { "label": "UKK", "href": "#ukk" },
+    { "label": "Yhteys", "href": "#yhteys" }
+  ],
+  "ctaLabel": "Kysy työstä",
+  "hero": {
+    "eyebrow": "Rakennusliike • Espoo",
+    "badge": "Rakennusalan yritys vuodesta 2001",
+    "panelLabel": "Rakennustyö",
+    "title": "Rakennustyö alkaa selkeästä rajauksesta.",
+    "lead": "MBR-Rakenne Oy on Espoossa toimiva rakennusalan yritys. Kerro kohteesta ja työn tarpeesta, niin seuraava vaihe voidaan sopia suoraan.",
+    "primaryCta": "Kysy työstä",
+    "secondaryCta": "Soita 040 565 2445",
+    "highlights": ["Espoo", "Y-tunnus 1700361-1", "Toiminnassa vuodesta 2001"],
+    "priceCard": {
+      "title": "Mitä työ maksaa?",
+      "value": "Tarjous kohteen mukaan",
+      "note": "Rakennustyön hinta riippuu kohteesta, työn sisällöstä ja tarvittavista työvaiheista. Kerro tarpeesta, niin työ voidaan rajata tarjousta varten.",
+      "linkLabel": "Pyydä hinta-arvio",
+      "linkHref": "#yhteys",
+      "prominent": true,
+      "bullets": [
+        "Kohteen tyyppi ja sijainti",
+        "Työn sisältö ja laajuus",
+        "Tarvittavat työvaiheet",
+        "Toivottu aikataulu"
+      ]
+    }
+  },
+  "servicesHeading": {
+    "title": "Rakennustyöstä selkeästi eteenpäin",
+    "intro": "Yrityksen päätoimiala on talonrakentaminen. Julkisessa toimialakuvauksessa mainitaan myös korjaus- ja uudisrakentaminen, mutta yksittäisen työn sopivuus kannattaa varmistaa suoraan yritykseltä."
+  },
+  "services": [
+    {
+      "title": "Talonrakentaminen",
+      "description": "Yrityksen rekisteröity päätoimiala on talonrakentaminen.",
+      "bullets": ["Kohteen tarpeen kartoitus", "Työn rajaus", "Toteutuksen sopiminen"],
+      "cta": "Kerro kohteesta"
+    },
+    {
+      "title": "Korjausrakentaminen",
+      "description": "Korjausrakentaminen mainitaan yrityksen julkisessa toimialakuvauksessa.",
+      "bullets": ["Työn kuvaus", "Kohteen lähtötilanne", "Tarjouksen lähtötiedot"],
+      "cta": "Kysy korjaustyöstä"
+    },
+    {
+      "title": "Uudisrakentaminen",
+      "description": "Uudisrakentaminen mainitaan yrityksen julkisessa toimialakuvauksessa.",
+      "bullets": ["Kohteen perustiedot", "Työn laajuus", "Aikataulun sopiminen"],
+      "cta": "Kysy kohteesta"
+    }
+  ],
+  "whyUsHeading": "Pitkä toimintahistoria ja suora yhteys.",
+  "whyUs": [
+    { "title": "Toiminnassa vuodesta 2001", "text": "MBR-Rakenne Oy on rekisteröity vuonna 2001." },
+    { "title": "Espoossa toimiva yritys", "text": "Yrityksen postiosoite on Kiuastie 19, 02770 Espoo." },
+    { "title": "Suora puhelinyhteys", "text": "Yrityksen julkinen yhteysnumero on 040 565 2445." }
+  ],
+  "projects": [],
+  "testimonials": [],
+  "processHeading": "Näin yhteydenotto etenee",
+  "process": [
+    { "title": "Kerro kohteesta", "description": "Soita tai jätä yhteydenottopyyntö ja kuvaa lyhyesti, mitä kohteessa pitäisi tehdä." },
+    { "title": "Työ rajataan", "description": "Tarkennetaan työn sisältö, sijainti, laajuus ja tarjousta varten tarvittavat lähtötiedot." },
+    { "title": "Sovitaan seuraava vaihe", "description": "Kun työ on rajattu, voidaan sopia tarjouksesta ja mahdollisesta toteutuksesta." }
+  ],
+  "faqHeading": "Ennen yhteydenottoa.",
+  "faqs": [
+    { "question": "Mitä rakennustyö maksaa?", "answer": "Hinta riippuu kohteesta, työn laajuudesta ja tarvittavista työvaiheista. Kerro työstä mahdollisimman konkreettisesti, jotta tarjous voidaan tehdä oikeista lähtötiedoista." },
+    { "question": "Mitä MBR-Rakenne Oy tekee?", "answer": "Yrityksen päätoimiala on talonrakentaminen. Julkisessa toimialakuvauksessa mainitaan lisäksi muun muassa korjaus- ja uudisrakentaminen." },
+    { "question": "Missä yritys sijaitsee?", "answer": "Yrityksen postiosoite on Kiuastie 19, 02770 Espoo." },
+    { "question": "Onnistuuko työ omalla alueellani?", "answer": "Yrityksen kotipaikka on Espoo. Kohteen sijainnista ja työn saatavuudesta kannattaa kysyä suoraan numerosta 040 565 2445." },
+    { "question": "Miten pyydän tarjouksen?", "answer": "Soita numeroon 040 565 2445 tai jätä yhteydenottopyyntö ja kerro lyhyesti kohteesta ja tarvittavasta työstä." }
+  ],
+  "trust": {
+    "heading": "MBR-Rakenne lyhyesti",
+    "items": ["Talonrakentaminen", "Espoo", "Toiminnassa vuodesta 2001", "Y-tunnus 1700361-1"]
+  },
+  "contact": {
+    "title": "Onko kohteessa rakennustyön tarve?",
+    "intro": "Kerro mitä pitäisi tehdä, missä kohde sijaitsee ja milloin työ olisi ajankohtainen.",
+    "sideTitle": "Ota yhteyttä",
+    "personLine": "Markku Björkstrand, toimitusjohtaja",
+    "formTitle": "Kysy työstä",
+    "button": "Lähetä yhteydenottopyyntö",
+    "success": "Kiitos! Yhteydenottopyyntö on lähetetty.",
+    "error": "Lähetys ei onnistunut. Soita numeroon 040 565 2445 tai yritä uudelleen.",
+    "privacyLine": "Tietoja käytetään vain yhteydenoton käsittelyyn.",
+    "serviceOptions": ["Talonrakentaminen", "Korjausrakentaminen", "Uudisrakentaminen", "Muu rakennustyö"],
+    "fields": { "email": "optional", "city": "optional" },
+    "placeholders": {
+      "name": "Nimesi",
+      "phone": "040 123 4567",
+      "email": "sina@esimerkki.fi",
+      "city": "Kohteen paikkakunta",
+      "message": "Mitä kohteessa pitäisi tehdä?"
+    }
+  },
+  "footer": {
+    "links": [
+      { "label": "Rakennustyö", "href": "#palvelut" },
+      { "label": "Prosessi", "href": "#prosessi" },
+      { "label": "UKK", "href": "#ukk" },
+      { "label": "Yhteys", "href": "#yhteys" }
+    ],
+    "copyright": "© 2026 MBR-Rakenne Oy"
+  },
+  "needsConfirmation": ["email", "services", "serviceArea", "pricing", "privacy"]
+}
