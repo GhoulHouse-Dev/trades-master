@@ -30,6 +30,7 @@ export const aquafix: SiteConfig = {
     description: "LVI-asennukset, vesivuodot, viemärinavaukset ja putkiremontit Helsingissä. Yli 30 vuoden LVI-kokemus. Pyydä tarjous tai soita 040 866 8276.",
     ogTitle: "Aquafix Oy – LVI-asennukset Helsingissä",
     locale: "fi_FI",
+    noindex: true,
   },
   theme: {
     primary: "#0C3C7C",
