@@ -115,6 +115,10 @@ export type SiteConfig = {
     error?: string;
     privacyLine?: string;
     serviceOptions?: string[];
+    fields?: {
+      email?: "hidden" | "optional" | "required";
+      city?: "hidden" | "optional" | "required";
+    };
     placeholders?: {
       name?: string;
       phone?: string;
