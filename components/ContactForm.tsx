@@ -9,6 +9,8 @@ export function ContactForm() {
   const [state, setState] = useState<State>("idle");
   const [message, setMessage] = useState("");
   const copy = site.contact;
+  const emailMode = copy?.fields?.email ?? "optional";
+  const cityMode = copy?.fields?.city ?? "optional";
 
   async function onSubmit(event: FormEvent<HTMLFormElement>) {
     event.preventDefault();
@@ -42,10 +44,10 @@ export function ContactForm() {
         <label>Nimi<input name="name" autoComplete="name" required minLength={2} placeholder={copy?.placeholders?.name} /></label>
         <label>Puhelin<input name="phone" autoComplete="tel" inputMode="tel" required placeholder={copy?.placeholders?.phone} /></label>
       </div>
-      <label>Sähköposti<input name="email" type="email" autoComplete="email" placeholder={copy?.placeholders?.email} /></label>
-      <label>Kohteen paikkakunta<input name="city" autoComplete="address-level2" required={Boolean(copy)} placeholder={copy?.placeholders?.city} /></label>
       {copy?.serviceOptions && <label>Työn tyyppi<select name="service" required defaultValue=""><option value="" disabled>Valitse työn tyyppi</option>{copy.serviceOptions.map((option) => <option key={option} value={option}>{option}</option>)}</select></label>}
       <label>Kerro lyhyesti<textarea name="message" required minLength={10} rows={5} placeholder={copy?.placeholders?.message ?? "Esim. keittiön hanan ja tiskikoneen liitännän uusinta..."} /></label>
+      {emailMode !== "hidden" && <label>Sähköposti {emailMode === "optional" && <span className="optionalLabel">(valinnainen)</span>}<input name="email" type="email" autoComplete="email" required={emailMode === "required"} placeholder={copy?.placeholders?.email} /></label>}
+      {cityMode !== "hidden" && <label>Kohteen paikkakunta {cityMode === "optional" && <span className="optionalLabel">(valinnainen)</span>}<input name="city" autoComplete="address-level2" required={cityMode === "required"} placeholder={copy?.placeholders?.city} /></label>}
       <label className="honeypot" aria-hidden="true">Yritys<input name="companyWebsite" tabIndex={-1} autoComplete="off" /></label>
       <button className="button submitButton" disabled={state === "sending"}>
         {state === "sending" ? "Lähetetään…" : (copy?.button ?? "Lähetä tarjouspyyntö")}
