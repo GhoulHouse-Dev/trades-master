@@ -13,22 +13,23 @@ export const metadata: Metadata = {
     locale: site.seo.locale,
     url: site.seo.siteUrl,
     siteName: site.company.name,
-    title: site.seo.title,
+    title: site.seo.ogTitle ?? site.seo.title,
     description: site.seo.description,
   },
   twitter: {
     card: "summary_large_image",
-    title: site.seo.title,
+    title: site.seo.ogTitle ?? site.seo.title,
     description: site.seo.description,
   },
 };
 
 export default function RootLayout({ children }: Readonly<{ children: ReactNode }>) {
   return (
-    <html lang="fi">
+    <html lang={site.locale ?? "fi"}>
       <body
         style={
           {
+            "--primary": site.theme.primary ?? site.theme.ink,
             "--accent": site.theme.accent,
             "--accent-strong": site.theme.accentStrong,
             "--surface": site.theme.surface,
