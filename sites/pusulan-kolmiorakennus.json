@@ -1,0 +1,151 @@
+{
+  "slug": "pusulan-kolmiorakennus",
+  "locale": "fi",
+  "trade": "remontti",
+  "company": {
+    "name": "Pusulan Kolmiorakennus",
+    "legalName": "Pusulan Kolmiorakennus Oy",
+    "businessId": "0735874-2",
+    "tagline": "Rakennusliike Nummella",
+    "description": "Pusulan Kolmiorakennus Oy on Nummella toimiva rakennusalan yritys.",
+    "address": "Heijalanpolku 38, 09810 Nummi",
+    "streetAddress": "Heijalanpolku 38",
+    "postalCode": "09810",
+    "city": "Nummi",
+    "phone": "050 307 5762",
+    "phoneHref": "tel:+358503075762",
+    "email": "",
+    "contactPerson": "Pasi Nurmi",
+    "contactRole": "Toimitusjohtaja",
+    "serviceArea": ["Nummi"],
+    "serviceAreaNote": "Yrityksen toimipaikka on Nummella. Kohteen sijainnista ja työn saatavuudesta kannattaa sopia suoraan yrityksen kanssa.",
+    "foundedYear": 1987,
+    "logoText": "PK"
+  },
+  "seo": {
+    "siteUrl": "https://pusulan-kolmiorakennus-demo.vercel.app",
+    "title": "Pusulan Kolmiorakennus Oy | Rakennusliike Nummi",
+    "description": "Pusulan Kolmiorakennus Oy on Nummella toimiva rakennusalan yritys. Soita 050 307 5762 tai jätä yhteydenottopyyntö.",
+    "ogTitle": "Pusulan Kolmiorakennus Oy – Nummi",
+    "locale": "fi_FI",
+    "noindex": true
+  },
+  "theme": {
+    "primary": "#25231F",
+    "accent": "#D8963E",
+    "accentStrong": "#B77524",
+    "surface": "#F4F1EA",
+    "ink": "#211F1B"
+  },
+  "nav": [
+    { "label": "Rakennustyö", "href": "#palvelut" },
+    { "label": "Prosessi", "href": "#prosessi" },
+    { "label": "UKK", "href": "#ukk" },
+    { "label": "Yhteys", "href": "#yhteys" }
+  ],
+  "ctaLabel": "Kysy työstä",
+  "hero": {
+    "eyebrow": "Rakennusliike • Nummi",
+    "badge": "Rakennusalan yritys vuodesta 1987",
+    "panelLabel": "Rakennustyö",
+    "title": "Rakennustyö alkaa selkeästä keskustelusta.",
+    "lead": "Pusulan Kolmiorakennus Oy on Nummella toimiva rakennusalan yritys. Kerro kohteesta ja työn tarpeesta, niin seuraava vaihe voidaan sopia suoraan.",
+    "primaryCta": "Kysy työstä",
+    "secondaryCta": "Soita 050 307 5762",
+    "highlights": ["Nummi", "Y-tunnus 0735874-2", "Toiminnassa vuodesta 1987"],
+    "priceCard": {
+      "title": "Mitä työ maksaa?",
+      "value": "Tarjous kohteen mukaan",
+      "note": "Rakennustyön hinta riippuu kohteesta, työn laajuudesta ja toteutuksen yksityiskohdista. Kerro tarpeesta, niin työ voidaan rajata tarjousta varten.",
+      "linkLabel": "Kysy työstä",
+      "linkHref": "#yhteys",
+      "prominent": true,
+      "bullets": [
+        "Kohteen tyyppi ja sijainti",
+        "Työn sisältö ja laajuus",
+        "Tarvittavat työvaiheet",
+        "Toteutuksen aikataulu"
+      ]
+    }
+  },
+  "servicesHeading": {
+    "title": "Rakennustyö ilman turhaa kierrosta",
+    "intro": "Kerro ensin kohteesta ja työn tarpeesta. Näin voidaan nopeasti arvioida, onko työ yritykselle sopiva ja mitä tietoja tarjousta varten tarvitaan."
+  },
+  "services": [
+    {
+      "title": "Rakennustyöt",
+      "description": "Yrityksen virallinen toimiala on rakennusliike ja siihen liittyvä toiminta.",
+      "bullets": ["Kohteen tarpeen kartoitus", "Työn rajaus", "Toteutuksen sopiminen"],
+      "cta": "Kerro kohteesta"
+    },
+    {
+      "title": "Kohteen kartoitus",
+      "description": "Yhteydenotossa käydään läpi mitä kohteessa pitäisi tehdä ja mitä lähtötietoja tarvitaan.",
+      "bullets": ["Työn lyhyt kuvaus", "Kohteen sijainti", "Toivottu ajankohta"],
+      "cta": "Jätä yhteydenottopyyntö"
+    },
+    {
+      "title": "Tarjous ja seuraava vaihe",
+      "description": "Kun työn sisältö on rajattu, voidaan sopia tarjouksesta ja toteutuksen seuraavasta vaiheesta.",
+      "bullets": ["Työn rajaus", "Tarjous kohteen mukaan", "Toteutuksen sopiminen"],
+      "cta": "Pyydä tarjous"
+    }
+  ],
+  "whyUsHeading": "Pitkä toimintahistoria ja suora yhteys.",
+  "whyUs": [
+    { "title": "Toiminnassa vuodesta 1987", "text": "Pusulan Kolmiorakennus Oy on rekisteröity vuonna 1987." },
+    { "title": "Nummella toimiva yritys", "text": "Yrityksen postiosoite on Heijalanpolku 38, 09810 Nummi." },
+    { "title": "Suora puhelinyhteys", "text": "Yrityksen julkinen yhteysnumero on 050 307 5762." }
+  ],
+  "projects": [],
+  "testimonials": [],
+  "processHeading": "Näin yhteydenotto etenee",
+  "process": [
+    { "title": "Kerro kohteesta", "description": "Soita tai jätä yhteydenottopyyntö ja kuvaa lyhyesti, mitä kohteessa pitäisi tehdä." },
+    { "title": "Työ rajataan", "description": "Tarkennetaan työn sisältö, sijainti ja muut tarjousta varten tarvittavat lähtötiedot." },
+    { "title": "Sovitaan seuraava vaihe", "description": "Kun työ on rajattu, voidaan sopia tarjouksesta ja mahdollisesta toteutuksesta." }
+  ],
+  "faqHeading": "Ennen yhteydenottoa.",
+  "faqs": [
+    { "question": "Mitä rakennustyö maksaa?", "answer": "Hinta riippuu kohteesta, työn laajuudesta ja toteutuksen yksityiskohdista. Kerro työstä mahdollisimman konkreettisesti, jotta tarjous voidaan tehdä oikeista lähtötiedoista." },
+    { "question": "Mitä Pusulan Kolmiorakennus Oy tekee?", "answer": "Yrityksen virallinen toimiala on rakennusliike ja siihen liittyvä toiminta. Tarkemmasta työstä kannattaa kysyä suoraan yritykseltä." },
+    { "question": "Missä yritys sijaitsee?", "answer": "Yrityksen postiosoite on Heijalanpolku 38, 09810 Nummi." },
+    { "question": "Onnistuuko työ omalla alueellani?", "answer": "Yrityksen toimipaikka on Nummella. Kohteen sijainnista ja työn saatavuudesta kannattaa kysyä suoraan numerosta 050 307 5762." },
+    { "question": "Miten pyydän tarjouksen?", "answer": "Soita numeroon 050 307 5762 tai jätä yhteydenottopyyntö ja kerro lyhyesti kohteesta ja tarvittavasta työstä." }
+  ],
+  "trust": {
+    "heading": "Pusulan Kolmiorakennus lyhyesti",
+    "items": ["Rakennusala", "Nummi", "Toiminnassa vuodesta 1987", "Y-tunnus 0735874-2"]
+  },
+  "contact": {
+    "title": "Onko kohteessa rakennustyön tarve?",
+    "intro": "Kerro kohteesta mahdollisimman konkreettisesti: mitä pitäisi tehdä, missä kohde sijaitsee ja milloin työ on ajankohtainen.",
+    "sideTitle": "Ota yhteyttä",
+    "personLine": "Pasi Nurmi, toimitusjohtaja",
+    "formTitle": "Kysy työstä",
+    "button": "Lähetä yhteydenottopyyntö",
+    "success": "Kiitos! Yhteydenottopyyntö on lähetetty.",
+    "error": "Lähetys ei onnistunut. Soita numeroon 050 307 5762 tai yritä uudelleen.",
+    "privacyLine": "Tietoja käytetään vain yhteydenoton käsittelyyn.",
+    "serviceOptions": ["Rakennustyö", "Tarjouspyyntö", "En osaa vielä rajata työtä"],
+    "fields": { "email": "optional", "city": "optional" },
+    "placeholders": {
+      "name": "Nimesi",
+      "phone": "040 123 4567",
+      "email": "sina@esimerkki.fi",
+      "city": "Nummi",
+      "message": "Mitä kohteessa pitäisi tehdä?"
+    }
+  },
+  "footer": {
+    "links": [
+      { "label": "Rakennustyö", "href": "#palvelut" },
+      { "label": "Prosessi", "href": "#prosessi" },
+      { "label": "UKK", "href": "#ukk" },
+      { "label": "Yhteys", "href": "#yhteys" }
+    ],
+    "copyright": "© 2026 Pusulan Kolmiorakennus Oy"
+  },
+  "needsConfirmation": ["email", "services", "serviceArea", "pricing", "privacy"]
+}
