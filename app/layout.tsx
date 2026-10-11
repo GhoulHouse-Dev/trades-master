@@ -2,6 +2,7 @@ import type { Metadata } from "next";
 import type { CSSProperties, ReactNode } from "react";
 import { site } from "@/content/site";
 import "./globals.css";
+import "./client.css";
 
 export const metadata: Metadata = {
   metadataBase: new URL(site.seo.siteUrl),
