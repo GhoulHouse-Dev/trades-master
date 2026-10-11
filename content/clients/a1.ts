@@ -53,7 +53,7 @@ export const a1: SiteConfig = {
     lead: "A1 tekee tasoitus-, rappaus- ja maalaustöitä sekä erikoispintoja pieniin ja keskisuuriin uudis- ja korjauskohteisiin pääkaupunkiseudulla.",
     primaryCta: "Pyydä tarjous",
     secondaryCta: "Soita 040 505 5972",
-    highlights: ["20+ v rakennusalalla", "Pääkaupunkiseutu", "M1-luokitellut materiaalit"],
+    highlights: ["20+ v rakennusalalla", "Pääkaupunkiseutu", "M1-materiaalit"],
     facts: [
       { value: "20+ v", label: "rakennusalan kokemusta" },
       { value: "M1", label: "luokitellut materiaalit" },
@@ -108,7 +108,7 @@ export const a1: SiteConfig = {
   ],
   trust: {
     heading: "A1 lyhyesti",
-    items: ["20+ v rakennusalalla", "Y-tunnus 2535205-3", "Pääkaupunkiseutu", "M1-luokitellut materiaalit"],
+    items: ["20+ v rakennusalalla", "Y-tunnus 2535205-3", "Pääkaupunkiseutu", "M1-materiaalit"],
   },
   contact: {
     title: "Onko kohteessa tasoitus-, rappaus- tai maalaustarve?",
