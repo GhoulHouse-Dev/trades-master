@@ -1,0 +1,151 @@
+{
+  "slug": "arjusan",
+  "locale": "fi",
+  "trade": "remontti",
+  "company": {
+    "name": "Arjusan",
+    "legalName": "Arjusan Oy",
+    "businessId": "3433697-9",
+    "tagline": "Rakennusalan yritys Klaukkalassa",
+    "description": "Arjusan Oy on rakennusalan yritys, jonka päätoimiala on talonrakentaminen.",
+    "address": "Kiikkaistentie 12 A 12, 01800 Klaukkala",
+    "streetAddress": "Kiikkaistentie 12 A 12",
+    "postalCode": "01800",
+    "city": "Klaukkala",
+    "phone": "044 211 0031",
+    "phoneHref": "tel:+358442110031",
+    "email": "arjusan.oy@gmail.com",
+    "contactPerson": "Artturi Vartiainen",
+    "contactRole": "Toimitusjohtaja",
+    "serviceArea": ["Klaukkala"],
+    "serviceAreaNote": "Yrityksen nykyinen rekisteröity osoite on Klaukkalassa. Kohteen sijainnista ja työn saatavuudesta kannattaa sopia suoraan yrityksen kanssa.",
+    "foundedYear": 2024,
+    "logoText": "AR"
+  },
+  "seo": {
+    "siteUrl": "https://arjusan-demo.vercel.app",
+    "title": "Arjusan Oy | Rakennusalan yritys Klaukkala",
+    "description": "Arjusan Oy on rakennusalan yritys Klaukkalassa. Soita 044 211 0031 tai jätä yhteydenottopyyntö.",
+    "ogTitle": "Arjusan Oy – rakennusala Klaukkala",
+    "locale": "fi_FI",
+    "noindex": true
+  },
+  "theme": {
+    "primary": "#242722",
+    "accent": "#C9823B",
+    "accentStrong": "#A86124",
+    "surface": "#F3F1EB",
+    "ink": "#20231F"
+  },
+  "nav": [
+    { "label": "Palvelut", "href": "#palvelut" },
+    { "label": "Prosessi", "href": "#prosessi" },
+    { "label": "UKK", "href": "#ukk" },
+    { "label": "Yhteys", "href": "#yhteys" }
+  ],
+  "ctaLabel": "Kysy työstä",
+  "hero": {
+    "eyebrow": "Rakennusala • Klaukkala",
+    "badge": "Arjusan Oy • perustettu 2024",
+    "panelLabel": "Rakennustyö",
+    "title": "Rakennustyö alkaa oikeasta rajauksesta.",
+    "lead": "Arjusan Oy toimii rakennusalalla. Julkisissa yritystiedoissa toimintaan kuuluvat talonrakentaminen, kattojen pesu ja maalaus sekä infra- ja maanrakennustyöt.",
+    "primaryCta": "Kysy työstä",
+    "secondaryCta": "Soita 044 211 0031",
+    "highlights": ["Klaukkala", "Y-tunnus 3433697-9", "Perustettu 2024"],
+    "priceCard": {
+      "title": "Mitä työ maksaa?",
+      "value": "Tarjous kohteen mukaan",
+      "note": "Hinta riippuu kohteesta, työn laajuudesta ja tarvittavista työvaiheista. Kerro tarpeesta, niin työ voidaan rajata tarjousta varten.",
+      "linkLabel": "Pyydä hinta-arvio",
+      "linkHref": "#yhteys",
+      "prominent": true,
+      "bullets": [
+        "Kohteen tyyppi ja sijainti",
+        "Työn sisältö ja laajuus",
+        "Tarvittavat työvaiheet",
+        "Toivottu aikataulu"
+      ]
+    }
+  },
+  "servicesHeading": {
+    "title": "Rakennustyöstä selkeästi eteenpäin",
+    "intro": "Kerro kohteesta ja työn tarpeesta. Näin voidaan arvioida työn sopivuus ja sopia tarvittavista lähtötiedoista ennen tarjousta."
+  },
+  "services": [
+    {
+      "title": "Talonrakentaminen",
+      "description": "Yrityksen rekisteröity päätoimiala on talonrakentaminen.",
+      "bullets": ["Kohteen tarpeen kartoitus", "Työn rajaus", "Toteutuksen sopiminen"],
+      "cta": "Kerro kohteesta"
+    },
+    {
+      "title": "Kattojen pesu ja maalaus",
+      "description": "Kattojen pesu ja maalaus mainitaan yrityksen julkisessa toimialakuvauksessa.",
+      "bullets": ["Kohteen tiedot", "Työn laajuus", "Ajankohdan sopiminen"],
+      "cta": "Kysy kattotyöstä"
+    },
+    {
+      "title": "Infra- ja maanrakennustyöt",
+      "description": "Infra- ja maanrakennustyöt mainitaan yrityksen julkisessa toimialakuvauksessa.",
+      "bullets": ["Kohteen sijainti", "Työn sisältö", "Tarjouksen lähtötiedot"],
+      "cta": "Kysy maanrakennuksesta"
+    }
+  ],
+  "whyUsHeading": "Ajantasaiset tiedot ja suora yhteys.",
+  "whyUs": [
+    { "title": "Aktiivinen osakeyhtiö", "text": "Arjusan Oy on vuonna 2024 perustettu aktiivinen osakeyhtiö." },
+    { "title": "Nykyinen osoite Klaukkalassa", "text": "Yrityksen rekisteröity osoite on Kiikkaistentie 12 A 12, 01800 Klaukkala." },
+    { "title": "Suora yhteys", "text": "Yrityksen julkinen puhelinnumero on 044 211 0031." }
+  ],
+  "projects": [],
+  "testimonials": [],
+  "processHeading": "Näin yhteydenotto etenee",
+  "process": [
+    { "title": "Kerro kohteesta", "description": "Soita tai jätä yhteydenottopyyntö ja kuvaa lyhyesti, mitä kohteessa pitäisi tehdä." },
+    { "title": "Työ rajataan", "description": "Tarkennetaan työn sisältö, sijainti, laajuus ja tarjousta varten tarvittavat lähtötiedot." },
+    { "title": "Sovitaan seuraava vaihe", "description": "Kun työ on rajattu, voidaan sopia tarjouksesta ja mahdollisesta toteutuksesta." }
+  ],
+  "faqHeading": "Ennen yhteydenottoa.",
+  "faqs": [
+    { "question": "Mitä rakennustyö maksaa?", "answer": "Hinta riippuu kohteesta, työn laajuudesta ja tarvittavista työvaiheista. Kerro työstä mahdollisimman konkreettisesti, jotta tarjous voidaan tehdä oikeista lähtötiedoista." },
+    { "question": "Mitä Arjusan Oy tekee?", "answer": "Yrityksen päätoimiala on talonrakentaminen. Julkisessa toimialakuvauksessa mainitaan lisäksi kattojen pesu ja maalaus sekä infra- ja maanrakennustyöt." },
+    { "question": "Missä yritys sijaitsee?", "answer": "Yrityksen nykyinen rekisteröity osoite on Kiikkaistentie 12 A 12, 01800 Klaukkala." },
+    { "question": "Onnistuuko työ omalla alueellani?", "answer": "Kohteen sijainnista ja työn saatavuudesta kannattaa sopia suoraan yrityksen kanssa numerossa 044 211 0031." },
+    { "question": "Miten pyydän tarjouksen?", "answer": "Soita numeroon 044 211 0031 tai jätä yhteydenottopyyntö ja kerro lyhyesti kohteesta ja tarvittavasta työstä." }
+  ],
+  "trust": {
+    "heading": "Arjusan lyhyesti",
+    "items": ["Talonrakentaminen", "Klaukkala", "Perustettu 2024", "Y-tunnus 3433697-9"]
+  },
+  "contact": {
+    "title": "Onko kohteessa rakennustyön tarve?",
+    "intro": "Kerro mitä pitäisi tehdä, missä kohde sijaitsee ja milloin työ olisi ajankohtainen.",
+    "sideTitle": "Ota yhteyttä",
+    "personLine": "Artturi Vartiainen, toimitusjohtaja",
+    "formTitle": "Kysy työstä",
+    "button": "Lähetä yhteydenottopyyntö",
+    "success": "Kiitos! Yhteydenottopyyntö on lähetetty.",
+    "error": "Lähetys ei onnistunut. Soita numeroon 044 211 0031 tai yritä uudelleen.",
+    "privacyLine": "Tietoja käytetään vain yhteydenoton käsittelyyn.",
+    "serviceOptions": ["Talonrakentaminen", "Kattojen pesu ja maalaus", "Infra- ja maanrakennustyö", "Muu rakennustyö"],
+    "fields": { "email": "optional", "city": "optional" },
+    "placeholders": {
+      "name": "Nimesi",
+      "phone": "040 123 4567",
+      "email": "sina@esimerkki.fi",
+      "city": "Kohteen paikkakunta",
+      "message": "Mitä kohteessa pitäisi tehdä?"
+    }
+  },
+  "footer": {
+    "links": [
+      { "label": "Palvelut", "href": "#palvelut" },
+      { "label": "Prosessi", "href": "#prosessi" },
+      { "label": "UKK", "href": "#ukk" },
+      { "label": "Yhteys", "href": "#yhteys" }
+    ],
+    "copyright": "© 2026 Arjusan Oy"
+  },
+  "needsConfirmation": ["serviceArea", "pricing", "privacy"]
+}
