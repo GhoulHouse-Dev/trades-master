@@ -86,6 +86,8 @@ export type SiteConfig = {
       note: string;
       linkLabel: string;
       linkHref: string;
+      prominent?: boolean;
+      bullets?: string[];
     };
   };
   services: Service[];
