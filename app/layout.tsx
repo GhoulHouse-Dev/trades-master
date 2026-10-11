@@ -9,6 +9,9 @@ export const metadata: Metadata = {
   title: site.seo.title,
   description: site.seo.description,
   alternates: { canonical: "/" },
+  robots: site.seo.noindex
+    ? { index: false, follow: false, googleBot: { index: false, follow: false } }
+    : undefined,
   openGraph: {
     type: "website",
     locale: site.seo.locale,
