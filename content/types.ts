@@ -59,6 +59,7 @@ export type SiteConfig = {
     description: string;
     locale: string;
     ogTitle?: string;
+    noindex?: boolean;
   };
   theme: {
     primary?: string;
