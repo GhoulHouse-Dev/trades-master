@@ -1,0 +1,128 @@
+{
+  "slug": "a1",
+  "locale": "fi",
+  "trade": "remontti",
+  "company": {
+    "name": "A1 Tasoite- ja Rakennuspalvelut",
+    "legalName": "A1 Tasoite- ja Rakennuspalvelut Oy",
+    "businessId": "2535205-3",
+    "tagline": "Tasoitus-, rappaus- ja maalaustyöt",
+    "description": "Tasoitus-, rappaus- ja maalaustyöt sekä erikoispinnat pieniin ja keskisuuriin uudis- ja korjauskohteisiin.",
+    "address": "Sienitie 28 B, 00760 Helsinki",
+    "streetAddress": "Sienitie 28 B",
+    "postalCode": "00760",
+    "city": "Helsinki",
+    "phone": "040 505 5972",
+    "phoneHref": "tel:+358405055972",
+    "email": "joni.korhonen@a1oy.fi",
+    "contactPerson": "Joni Korhonen",
+    "contactRole": "Yrittäjä",
+    "serviceArea": ["Helsinki", "Espoo", "Vantaa", "Pääkaupunkiseutu"],
+    "serviceAreaNote": "Pääasiallinen toiminta-alue on pääkaupunkiseutu. Myös kauempana sijaitsevista kohteista voi pyytää tarjouksen.",
+    "foundedYear": 2013,
+    "logoText": "A1"
+  },
+  "seo": {
+    "siteUrl": "https://www.a1oy.fi",
+    "title": "A1 Tasoite- ja Rakennuspalvelut | Tasoitus, rappaus ja maalaus Helsinki",
+    "description": "Tasoitus-, rappaus- ja maalaustyöt sekä sisustus- ja koristerappaukset pääkaupunkiseudulla. Yli 20 vuoden rakennusalan kokemus. Pyydä tarjous.",
+    "ogTitle": "A1 Tasoite- ja Rakennuspalvelut – Helsinki",
+    "locale": "fi_FI",
+    "noindex": true
+  },
+  "theme": {
+    "primary": "#24211D",
+    "accent": "#C06B3E",
+    "accentStrong": "#9A4E28",
+    "surface": "#F5F1EA",
+    "ink": "#211F1C"
+  },
+  "nav": [
+    { "label": "Palvelut", "href": "#palvelut" },
+    { "label": "Prosessi", "href": "#prosessi" },
+    { "label": "UKK", "href": "#ukk" },
+    { "label": "Yhteystiedot", "href": "#yhteys" }
+  ],
+  "ctaLabel": "Pyydä tarjous",
+  "hero": {
+    "eyebrow": "Tasoitus • rappaus • maalaus",
+    "badge": "Yli 20 vuoden kokemus rakennusalalta",
+    "panelLabel": "Pintatyöt",
+    "title": "Viimeistellyt pinnat kotiin, taloyhtiöön ja rakennuskohteeseen.",
+    "lead": "A1 tekee tasoitus-, rappaus- ja maalaustöitä sekä erikoispintoja pieniin ja keskisuuriin uudis- ja korjauskohteisiin pääkaupunkiseudulla.",
+    "primaryCta": "Pyydä hinta-arvio",
+    "secondaryCta": "Soita 040 505 5972",
+    "highlights": ["20+ v rakennusalalla", "Pääkaupunkiseutu", "M1-materiaalit"],
+    "facts": [
+      { "value": "20+ v", "label": "rakennusalan kokemusta" },
+      { "value": "M1", "label": "luokitellut materiaalit" },
+      { "value": "9", "label": "palvelukokonaisuutta" }
+    ],
+    "priceCard": {
+      "title": "Mitä pintatyö maksaa?",
+      "value": "Ei kiinteää hinnastoa – tarjous kohteen mukaan",
+      "note": "Saat hinta-arvion kohdetietojen perusteella. Hintaan vaikuttavat työn laajuus, alustan kunto, valittu pinta ja tarvittavat työvaiheet.",
+      "linkLabel": "Pyydä hinta-arvio",
+      "linkHref": "#yhteys",
+      "prominent": true,
+      "bullets": ["Pinta-ala ja työn laajuus", "Alustan kunto ja pohjatyöt", "Valittu pinta tai materiaali", "Kohteen sijainti ja työvaiheet"]
+    }
+  },
+  "servicesHeading": {
+    "title": "Pinnat ja rappaukset yhdeltä tekijältä",
+    "intro": "Työt tehdään sekä uudiskohteisiin että kunnostettaviin kohteisiin. Pääpaino on sisätiloissa, mutta palveluihin kuuluu myös julkisivurappaus."
+  },
+  "services": [
+    { "title": "Tasoitus ja maalaus", "description": "Seinien ja kattojen tasoitus- ja maalaustyöt uudis- ja korjauskohteisiin.", "bullets": ["Tasoitustyöt", "Maalaustyöt", "Huolto- ja korjaustyöt"], "cta": "Kerro kohteesta" },
+    { "title": "Rappaukset", "description": "Sisä- ja ulkopintojen rappaukset sekä viimeistellyt koristepinnat.", "bullets": ["Rappaukset", "Sisustusrappaukset", "Koristerappaukset", "Julkisivujen rappaus"], "cta": "Kerro kohteesta" },
+    { "title": "Erikoispinnat", "description": "Ratkaisuja kohteisiin, joissa tavallinen maalipinta ei ole oikea lopputulos.", "bullets": ["Verhoilukivien asennus", "Hengittävät savilaastipinnoitteet", "Muut erikoistyöt"], "cta": "Kerro kohteesta" }
+  ],
+  "whyUsHeading": "Kokemus, materiaalit ja erikoisosaaminen.",
+  "whyUs": [
+    { "title": "Yli 20 vuotta rakennusalalla", "text": "Yrittäjä Joni Korhosella on yli 20 vuoden kokemus rakennusalalta." },
+    { "title": "M1-luokitellut tuotteet", "text": "Yritys ilmoittaa käyttävänsä laadukkaita M1-luokiteltuja tuotteita ja materiaaleja rakennuskohteissa." },
+    { "title": "Erikoispinnat", "text": "Sisustus- ja koristerappaukset, verhoilukivet sekä hengittävät savilaastipinnoitteet täydentävät tavallisia tasoitus- ja maalaustöitä." }
+  ],
+  "projects": [],
+  "testimonials": [],
+  "processHeading": "Näin tarjouspyyntö etenee",
+  "process": [
+    { "title": "Kerro kohteesta", "description": "Soita tai jätä tarjouspyyntö ja kerro työn tyyppi, kohde ja sijainti." },
+    { "title": "Työ rajataan", "description": "Käydään läpi pinnat, työn laajuus ja tarvittava toteutus ennen tarjousta." },
+    { "title": "Työ toteutetaan", "description": "Tasoitus-, rappaus- tai maalaustyö tehdään sovitun sisällön mukaisesti." }
+  ],
+  "faqHeading": "Ennen tarjouspyyntöä.",
+  "faqs": [
+    { "question": "Mitä pintatyö maksaa?", "answer": "A1:llä ei ole julkista kiinteää hinnastoa. Hinta arvioidaan kohteen mukaan, ja siihen vaikuttavat esimerkiksi työn laajuus, alustan kunto, valittu pinta tai materiaali sekä tarvittavat työvaiheet. Jätä kohdetiedot, niin saat hinta-arvion." },
+    { "question": "Mitä töitä A1 tekee?", "answer": "Palveluihin kuuluvat tasoitus-, rappaus- ja maalaustyöt, sisustus- ja koristerappaukset, julkisivujen rappaus, verhoilukivien asennus, savilaastipinnoitteet sekä muut näihin liittyvät erikois- ja korjaustyöt." },
+    { "question": "Millaisiin kohteisiin palvelu sopii?", "answer": "A1 palvelee pientalorakentajia, taloyhtiöitä ja rakennusliikkeitä. Työkohteet ovat yleensä pieniä tai keskisuuria, ja kyseessä voi olla uudiskohde tai kunnostettava kohde." },
+    { "question": "Teettekö myös julkisivutöitä?", "answer": "Kyllä. Pääosa töistä tehdään sisätiloissa, mutta palveluihin kuuluu myös julkisivujen rappaus." },
+    { "question": "Millä alueella toimitte?", "answer": "Pääasiallinen toiminta-alue on pääkaupunkiseutu. Myös kauempana sijaitsevista kohteista kannattaa kysyä tarjousta." },
+    { "question": "Miten pyydän tarjouksen?", "answer": "Soita numeroon 040 505 5972 tai jätä tarjouspyyntö. Kerro työn tyyppi, kohteen sijainti ja mahdollisimman lyhyesti mitä pintoja tai rakenteita työ koskee." }
+  ],
+  "trust": { "heading": "A1 lyhyesti", "items": ["20+ v rakennusalalla", "Y-tunnus 2535205-3", "Pääkaupunkiseutu", "M1-materiaalit"] },
+  "contact": {
+    "title": "Onko kohteessa tasoitus-, rappaus- tai maalaustarve?",
+    "intro": "Kerro työstä lyhyesti. A1 voi arvioida seuraavan vaiheen ja sopia tarvittaessa tarkemmasta kartoituksesta.",
+    "sideTitle": "Ota yhteyttä suoraan yrittäjään",
+    "personLine": "Joni Korhonen, yrittäjä",
+    "formTitle": "Pyydä tarjous",
+    "button": "Lähetä tarjouspyyntö",
+    "success": "Kiitos! Tarjouspyyntö on lähetetty.",
+    "error": "Lähetys ei onnistunut. Soita 040 505 5972 tai yritä uudelleen.",
+    "privacyLine": "Tietoja käytetään vain yhteydenoton ja tarjouspyynnön käsittelyyn.",
+    "serviceOptions": ["Tasoitus ja maalaus", "Rappaukset", "Erikoispinnat", "Muu"],
+    "fields": { "email": "optional", "city": "optional" },
+    "placeholders": { "name": "Nimesi", "phone": "040 123 4567", "email": "sina@esimerkki.fi", "city": "Helsinki", "message": "Mitä pitää tehdä ja millaisessa kohteessa?" }
+  },
+  "footer": {
+    "links": [
+      { "label": "Palvelut", "href": "#palvelut" },
+      { "label": "Prosessi", "href": "#prosessi" },
+      { "label": "UKK", "href": "#ukk" },
+      { "label": "Yhteystiedot", "href": "#yhteys" }
+    ],
+    "copyright": "© 2026 A1 Tasoite- ja Rakennuspalvelut Oy"
+  },
+  "needsConfirmation": ["privacy"]
+}
